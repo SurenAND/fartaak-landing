@@ -14,6 +14,12 @@
   }
 }
 
+@layer components {
+  .after-border-ftGreen {
+    @apply border-b-2 border-ftGreen after:content-[''] after:w-1/4 after:h-1.5 after:bg-primary after:absolute after:-bottom-1 after:right-0;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
