@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <div className="flex flex-col gap-4 p-5" id="services">
+    <div className="flex flex-col gap-4 p-5">
       {/* title */}
       <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap max-w-fit">
         خدمات ما:
