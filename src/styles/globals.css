@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .clip-polygon-0 {
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+  }
+}
 
 html {
   scroll-behavior: smooth;
