@@ -1,4 +1,5 @@
 import "@/src/styles/globals.css";
+import "@/src/styles/swiper.css";
 import { NextPage } from "next";
 import { AppProps } from "next/app";
 import { ReactElement, ReactNode } from "react";
