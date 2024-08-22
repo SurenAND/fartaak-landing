@@ -1,11 +1,11 @@
-import logo from "@/src/assets/images/footer-logo-type.png";
+import logo from "@/src/assets/images/about-us-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronLeft } from "react-icons/fa6";
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-950 text-white px-5 py-5" id="about-us">
+    <div className="bg-gray-950 text-white px-5 py-10" id="about-us">
       <div className="container mx-auto flex justify-start items-start gap-40">
         {/* title */}
         <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap">
