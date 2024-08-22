@@ -4,7 +4,7 @@ import { FaChevronLeft } from "react-icons/fa6";
 
 const Articles = () => {
   return (
-    <div className="flex flex-col gap-4 p-5" id="articles">
+    <div className="flex flex-col gap-4 p-5 container mx-auto" id="articles">
       <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap max-w-fit">
         گزیده مقالات:
       </h3>

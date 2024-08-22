@@ -3,7 +3,7 @@ import Videos from "@/src/components/templates/Home/media/videos/Videos";
 
 const Media = () => {
   return (
-    <div className="container mx-auto flex justify-between p-5">
+    <div className="container  mx-auto flex justify-between p-5">
       <Videos />
       <Images />
     </div>

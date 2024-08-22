@@ -15,7 +15,7 @@ const Videos = () => {
       <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap max-w-fit">
         ویدیوها:
       </h3>
-      <div className="w-[600px] h-[350px] my-5 mx-2">
+      <div className="w-[700px] h-[350px] my-5 mx-2">
         <ImageSlider slides={slides} />
       </div>
     </div>
