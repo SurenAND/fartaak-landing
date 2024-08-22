@@ -6,9 +6,9 @@ import { FaChevronLeft } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <div className="bg-gray-950 text-white px-5 py-10" id="about-us">
-      <div className="container mx-auto flex justify-start items-start gap-40">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-start items-center lg:items-start gap-8 lg:gap-40">
         {/* title */}
-        <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap">
+        <h3 className="text-xl font-bold relative after-border-ftGreen text-nowrap mb-4 lg:mb-0">
           درباره ما:
         </h3>
         {/* text */}
@@ -30,7 +30,11 @@ const AboutUs = () => {
           </div>
         </div>
         {/* logo */}
-        <Image src={logo} alt="logo" className="w-48 h-20" />
+        <Image
+          src={logo}
+          alt="logo"
+          className="w-36 h-16 lg:w-48 lg:h-20 mt-4 lg:mt-0"
+        />
       </div>
     </div>
   );
