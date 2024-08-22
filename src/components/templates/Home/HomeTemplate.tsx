@@ -1,4 +1,5 @@
 import AboutUs from "@/src/components/templates/Home/about-us/AboutUs";
+import Articles from "@/src/components/templates/Home/articles/Articles";
 import Cases from "@/src/components/templates/Home/cases/Cases";
 import Hero from "@/src/components/templates/Home/hero/Hero";
 import Services from "@/src/components/templates/Home/services/Services";
@@ -12,6 +13,7 @@ const HomeTemplate = () => {
       <Universities />
       <Services />
       <Cases />
+      <Articles />
     </>
   );
 };

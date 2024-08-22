@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Cases = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-evenly bg-gray-200 py-8 px-4 sm:px-8 lg:px-16 gap-8">
+    <div className="flex flex-col lg:flex-row justify-evenly bg-gray-300 py-8 px-4 sm:px-8 lg:px-16 gap-8">
       <CaseSwiper />
       <div className="flex flex-col justify-evenly gap-8 w-full lg:w-1/2">
         <div className="w-full h-56 sm:h-64 rounded-lg overflow-hidden relative">
